@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>ks.sample</groupId>
+	<artifactId>spring-cloud-bus-sample</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>spring-cloud-bus-sample</name>
+	<description>Sample project for spring-cloud-bus component</description>
+
+	<modules>
+		<module>cloud-bus-kafka-config-server</module>
+		<module>cloud-bus-kafka-config-server-client</module>
+	</modules>
+
+
+</project>

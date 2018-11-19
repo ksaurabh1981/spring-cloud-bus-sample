@@ -1,0 +1,28 @@
+server:
+  port: 8001
+
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+logging:
+  level:
+    root: INFO
+    org.springframework: INFO
+    org.springframework.web: INFO
+    org.springframework.web.servlet.DispatcherServlet: DEBUG
+
+spring:
+  application:
+    name: cloud-bus-kafka-config-server
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          searchLocations: file:./config-repo
