@@ -15,6 +15,7 @@
 	<modules>
 		<module>cloud-bus-kafka-config-server</module>
 		<module>cloud-bus-kafka-config-server-client</module>
+		<module>cloud-bus-kafka-producer-demo</module>
 	</modules>
 
 

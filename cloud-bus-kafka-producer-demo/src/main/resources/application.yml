@@ -1,0 +1,10 @@
+spring:
+ application:
+  index: ${random.uuid}
+ cloud:
+  stream:
+   kafka:
+    binder:
+     zkNodes:localhost:2181
+     brokers:localhost:9092
+     zkSessionTimeout: 6000
